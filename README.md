@@ -1,4 +1,4 @@
-# Femboot-StuSuite
+# StuSuite
 
 This project is a stusuite with options of Todo Lists, Expenses Calculator & Book Finder.
 
