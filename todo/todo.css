@@ -1,0 +1,89 @@
+body {
+  background-color: #184a45ff;
+}
+* {
+  box-sizing: border-box;
+}
+ul {
+  margin: 0;
+  padding: 0;
+}
+ul li {
+  position: relative;
+  padding: 12px 8px 12px 40px;
+  list-style-type: none;
+  background: #eee;
+}
+ul li.checked {
+  background: gray;
+  color: white;
+  text-decoration: line-through;
+}
+
+.close {
+  position: absolute;
+  right: 0;
+  top: 0;
+  padding: 12px 16px 12px 16px;
+}
+.close:hover {
+  background-color: red;
+  color: white;
+  text-decoration: bold;
+}
+
+.header {
+  background-color: #cce7e8;
+  padding: 30px 40px;
+  color: black;
+  text-align: center;
+  padding-bottom: 30px;
+}
+.header:after {
+  content: "";
+  display: table;
+}
+input {
+  margin: 0;
+  border: none;
+  border-radius: 0;
+  width: 75%;
+  padding: 10px;
+  float: left;
+  font-size: 16px;
+}
+.addingButton {
+  padding: 10px;
+  width: 25%;
+  background: #d9d9d9;
+  color: black;
+  float: left;
+}
+#clearTask{
+  font-weight: bold;
+  text-align: center;
+  padding: 5px;
+  font-size: large;
+  margin: 40px 43%;
+  background-color: white;
+  color: #184a45ff;
+}
+
+#clearTask:hover{
+  background-color: maroon;
+  color: white;
+}
+
+.topnav {
+  list-style-type: none; 
+  margin: 1px; 
+  padding: 0; 
+  overflow: hidden; 
+  background-color: white;
+}
+
+.topnav a {
+  float: left;
+  padding: 14px 65px;
+}
+

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+  	<link rel="stylesheet" type="text/css" href="todo.css">
+  </head>
+
+  <div class="topnav">
+    <a class="active" href="../index.html">Home</a>
+    <a href="../expense/index.html">Expense Calculator</a>
+    <a class="active" href="../book/index.html">Book Search</a>
+  </div>
+
+  <body>
+    <div class="header">
+      <h2>To Do List</h2>
+      <hr>
+        <p style="font-size: small;">Click on a task to cancel it<br /> Click on the 'x' to delete a task <br/>Clear All - Deletes all tasks on the board</p>
+      <hr>
+      <input type="text" id="myInput" placeholder="Add a task here...">
+      <span onclick="adding()" class="addingButton">Add</span>
+    </div>
+
+    <ul id="myUL">
+    </ul>
+
+    <button type="button" id="clearTask" onclick="clearAll()">Clear All</button>
+
+    <script src="js/todo.js"></script>
+  </body>
+</html>
